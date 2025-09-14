@@ -1,5 +1,5 @@
 # Define variables
-current_age = int(input('how ola are you'))
+current_age = int(input('How old are you?'))
 years_to_add = 2050 - 2023
 
 # Calculating future age
