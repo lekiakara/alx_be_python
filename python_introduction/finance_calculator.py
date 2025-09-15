@@ -10,7 +10,7 @@ your_monthly_savings = monthly_income - total_monthly_expenses
 # Calculate monthly savings
 
 your_monthly_savings = monthly_income - total_monthly_expenses
-print("Your monthly savings are $:", your_monthly_savings
+print("Your monthly savings are $:", your_monthly_savings)
 
 # Projected annual savings
 
