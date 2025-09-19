@@ -2,7 +2,7 @@
 
 num1 = input("Enter the first number: ")
 num2 = input("Enter the Second number: ")
-operation = input("Choose the operation? (+, -, *, /):")
+operation = input("Choose the operation (+, -, *, /):")
 
 match operation:
     case "+":
