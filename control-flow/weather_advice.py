@@ -1,6 +1,6 @@
 # Prompt user for weather input
 
-weather_input = input("What's the weather like today? (sunny, rainy, cold): ")
+weather = input("What's the weather like today? (sunny, rainy, cold): ")
 
 if weather == "sunny": 
 print("Wear a t-shirt and sunglasses")
