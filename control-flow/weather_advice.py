@@ -1,7 +1,11 @@
+# Weather conditions
+weather = ("sunny". "rainy", "cold")
+
 # Prompt user for weather input
 
 weather = input("What's the weather like today? (sunny, rainy, cold): ")
 
+# Recommendations 
 if weather == "sunny": 
 print("Wear a t-shirt and sunglasses")
 
