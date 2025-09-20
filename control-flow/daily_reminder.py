@@ -1,4 +1,4 @@
-# Prompt for task details
+# Prompt for single task details
 task = input("Enter your task: ")
 task_priority = input("Enter the priority level (high, medium, low): ")
 time_bound = input("Is the task time-bound? (yes or no): ")
