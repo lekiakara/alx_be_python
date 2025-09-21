@@ -18,8 +18,7 @@ match priority:
 
 # Modify reminder if task is time-sensitive
 if time_bound == "yes":
-    reminder = "Finish project report'is a high priority task that requires immediate attention today!"
-    reminder += " It requires immediate attention today!"
+    reminder += "It requires immediate attention today!"
 
     
 
