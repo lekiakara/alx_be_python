@@ -1,8 +1,9 @@
 # Prompt for single task details
 
 task = input("Enter your task: ")
+time_bound = input("Is it time-bound? (yes/no): ") 
 priority = input("Enter the priority level (high/medium/low): ")
-time_bound = input("Is it time-bound? (yes/no): ")
+
 
 # Process using match case for priority
 match priority:
