@@ -9,13 +9,13 @@ priority = input("Priority (high/medium/low): ")
 
 match priority:
     case "high":
-        reminder = f"Reminder: '{task}' is a high priority task. Finish project report' is a high priority task that requires immediate attention today!" 
+        reminder = f"Reminder: '{task}' is a high priority task 'that requires immediate attention today!'" 
     case "medium":
-        reminder = f"Reminder: '{task}' is a medium priority task. Make sure you finish it today."
+        reminder = f"Reminder: '{task}' is a medium priority task 'that requires immediate attention today!'"
     case "low":
-        reminder = f"Reminder: '{task}' is a low priority task. Consider completin it today."
+        reminder = f"Reminder: '{task}' is a low priority task 'that requires immediate attention today!'"
     case _:
-        reminder = f"Reminder: '{task}' has an unknown priority level. Check and re-enter"
+        reminder = f"Reminder: '{task}' has an unknown priority level 'that requires immediate attention today!'"
 
 # Modify reminder if task is time-sensitive
 
