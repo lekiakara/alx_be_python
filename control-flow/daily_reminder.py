@@ -22,7 +22,7 @@ match priority:
 if time_bound == "yes":
     print(reminder)
 if time_bound == "no":
-    print(reminder)
+    print(reminder) 
 if time_bound == "medium":
     print(reminder)
 else:
