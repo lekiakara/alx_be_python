@@ -19,5 +19,14 @@ match priority:
 
 # Modify reminder if task is time-sensitive
 
+if time_bound == "yes":
+    print(reminder)
 if time_bound == "no":
-   print(reminder) 
+    print(reminder)
+if time_bound == "medium":
+    print(reminder)
+else:
+    print(reminder)
+    
+    
+    
