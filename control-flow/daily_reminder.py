@@ -20,8 +20,8 @@ match priority:
 # Modify reminder if task is time-sensitive
 
 if time_bound == "yes":
-    reminder += "that requires immediate attention today!"
-print(reminder)
+    reminder = "that requires immediate attention today!"
+print("Reminder: '{task}' is a high priority task.") 
     
     
     
