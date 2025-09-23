@@ -15,7 +15,7 @@ match priority:
     case "low":
         reminder = f"Reminder: '{task}' is a low priority task. Consider completin it today."
     case _:
-        reminder = f"Reminder: '{task}' has an unknown priority level."
+        reminder = f"Reminder: '{task}' has an unknown priority level. Check and re-enter"
 
 # Modify reminder if task is time-sensitive
 
