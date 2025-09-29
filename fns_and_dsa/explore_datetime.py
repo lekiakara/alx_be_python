@@ -5,13 +5,14 @@ def display_current_datetime():
     formatted_date = current_date.strftime("%Y-%m-%d : %H:%M:%S")
     print("Current date and time is: ", formatted_date)
 
+display_current_datetime()
 
 from datetime import datetime, timedelta
 
 def calculate_future_date(days: int):
     today = datetime.today()
     future_date = today + timedelta(days=days)
-    formatted_date = future_date.strftime("%Y-%m-%d : %H:%M:%S")
+    formatted_date = future_date.strftime("%Y-%m-%d")
 
     # Print the result
     print(f"Future date: {formatted_date}")
