@@ -19,7 +19,7 @@ def main():
             print(f" '{item}' has been added to shoppin list.")
         
         elif choice == "2":
-            item = input("Enter the item to add: ")
+            item = input("Enter the item to remove: ")
             if item in shopping_list:
                 shopping_list.remove(item)
                 print(f" '{item}' has been added to shoppin list.")
@@ -27,10 +27,12 @@ def main():
                 print(f" '{item}' was not found in your shopping list.")
             
         elif choice == "3":
-           if item in shopping_list:
-               print("Your shopping list:")
+            if shopping_list:
+               print("\n Your shopping list:")
                for i, item in enumerate(shopping_list, start=1):
                    (f"{i}. {item}")
+            else:
+                print("Your shopping_list is currently empty.")
                    
         elif choice == "4":
             print("Exiting shopping list Manager. Goodbye!")
