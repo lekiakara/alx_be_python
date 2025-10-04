@@ -9,16 +9,12 @@ def safe_divide(numerator, denominator):
 
         # Try dividing
         result = num / den
-        return f"The result of the division is: {result}"   # formatted to 2 decimal places
+        return f"The result of the division is {result}"   # formatted to 2 decimal places
 
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     except ValueError:
         return "Error: Please enter numeric values only."
 
-# Test the function directly
-if __name__ == "__main__":
-    print(safe_divide(10, 5))      
-    print(safe_divide(10, 0))     
-    print(safe_divide("ten", 5))     
+    
    
