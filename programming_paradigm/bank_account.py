@@ -3,7 +3,7 @@
 class BankAccount:
     """A simple bank account class with basic operations."""
 
-    def __init__(self, initial_balance=0.00):
+    def __init__(self, initial_balance=0.0):
         """Initialize account with an optional starting balance (default = 0)."""
         self.account_balance = initial_balance
 
