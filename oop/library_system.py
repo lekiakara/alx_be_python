@@ -25,6 +25,7 @@ class PrintBook(Book):
     def __str__(self):
         return f"Print Book: {self.title} by {self.author} {self.page_count}"
 
+
 class Library:
     def __init__(self):
         self.books = []  
@@ -35,7 +36,8 @@ class Library:
     def list_books(self):
         if not self.books:
             print("The library is empty.")
-        else:
-            print("Books in the library:")
-            for book in self.books:
-                print(f" - {book}")
+            return
+
+        # Print only book details, no header line
+        for book in self.books:
+            print(book)
